@@ -1,0 +1,167 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+    font-size: 15px;
+    margin:0px;
+}
+
+header {
+    background-color: #333333;
+}
+
+header img {
+    display: inline-block;
+    margin: 10px 20px;
+}
+
+header ul {
+    float:right;
+    padding-top: 20px;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+header li {
+    display: inline;
+    margin:0px 5px;
+}
+
+header li:before{
+    content: "• ";
+    font-weight: bolder;
+}
+
+header a {
+    color:white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: black;
+    color:white;
+    font-size: 12px;
+    text-align: center;
+    padding: 20px;
+}
+
+article {
+    background-color: white;
+    margin:20px 10px;
+    padding: 20px;
+    box-shadow: 1px 1px 2px 1px gray;  
+}
+
+article h1 {
+    font-size: 20px;
+}
+
+article h2 {
+    font-size: 15px;
+    color: gray;
+}
+
+article h3 {
+    font-size: 12px;
+    font-weight: normal;
+    color:grey;
+}
+
+article p {
+    text-indent: 30px;
+    line-height: 1.8em;
+}
+
+#part2 ul{
+    list-style-type: none;
+}
+
+#part3 p {
+    border: thin solid gainsboro;
+    padding: 5px 10px;
+    display:inline-block;
+    text-indent: 0px;
+    text-align: center;
+}
+
+#part4 ul{
+    list-style-type: decimal;
+}
+
+table {
+    width:100%;
+    border-collapse: collapse;
+    border-color: gainsboro;
+    
+    text-align: left;
+    font-size: 12px;
+}
+
+thead {
+    color: white;
+    background-color: black;
+}
+
+tfoot {
+    background-color: gainsboro;
+    font-weight: bold;
+}
+
+/*Sidebar*/
+#sidebar h1 {
+    border-left: medium solid gainsboro;
+    padding-left: 20px;
+}
+
+#sidebar h2 {
+    display: none;
+}
+
+form {
+    text-align: center;
+    font-size: 12px;
+    width: 100%;
+}
+
+form div {
+    display:block;
+    font-size: 12px;
+    margin: 5px 0px;
+	text-align: center;
+    width:100%;
+    float:left;
+}
+
+form p.tip {
+    color:silver;
+    margin: 5px 0px;
+    text-indent: 0px;
+}
+
+.form-label {
+    display: inline-block;
+    width:33%;
+    text-align: right;
+}
+
+.form-input {
+    display: block;
+    text-align: left;
+    width:66%;
+    margin:0px;
+    float: right;
+}
+
+form textarea {
+    width:90%;
+    height: 80px;
+}
+
+#submit {
+    background-color: darkblue;
+    border:none;
+    border-radius: 10px;
+    width: 100%;
+    color:white;
+    font-size: 15px;
+    padding:10px;
+}
